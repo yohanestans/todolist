@@ -9,19 +9,19 @@
 body {
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    #373B44 0%,
+    #4286f4 100%
   );
 }
 .todo-app {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 45%;
+  width: 50%;
   min-height: 600px;
-  background: white;
+  background: #3f434e;
   text-align: center;
-  margin: 128px auto;
+  margin: 120px auto;
   border-radius: 10px;
   padding-bottom: 32px;
 }
@@ -40,6 +40,7 @@ body {
 h1 {
   margin: 32px 0;
   font-size: 33px;
+  color: azure;
 }
 
 .complete {
@@ -52,8 +53,8 @@ h1 {
 
 .todo-input {
   padding: 14px 32px 14px 16px;
-  border-radius: 4px 0 0 4px;
-  border: 2px solid rgba(17, 122, 255, 1);
+  border-radius: 3px 0 0 3px;
+  border: 1.5px solid #4286f4;
   outline: none;
   width: 320px;
 }
@@ -66,8 +67,8 @@ h1 {
   outline: none;
   background: linear-gradient(
     90deg,
-    rgba(17, 122, 255, 1) 0%,
-    rgba(20, 159, 255, 1) 100%
+    #373B44 0%,
+    #4286f4 100%
   );
   color: white;
   text-transform: capitalize;
@@ -87,12 +88,13 @@ h1 {
   color: white;
   background: linear-gradient(
     90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    #34383f 0%,
+    #4286f4 100%
   );
   padding: 16px;
   border-radius: 5px;
   width: 90%;
+  margin-top: 10px;
 }
 
 .iconsContainer {
